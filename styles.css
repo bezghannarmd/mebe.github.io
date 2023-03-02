@@ -1,0 +1,177 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  background-color: #0C0C0D;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #212121;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+#hero {
+  background-color: #56B8FF;
+  color: #fff;
+  padding: 100px 0;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#about {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#services {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+#services h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#services li {
+  margin-bottom: 10px;
+}
+
+#blog {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+#blog h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#blog ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#blog li {
+  margin-bottom: 10px;
+}
+
+#blog a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#blog a:hover {
+  color: #56B8FF;
+}
+
+#contact {
+  background-color: #56B8FF;
+  color: #fff;
+  padding: 100px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #fff;
+  color: #56B8FF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
